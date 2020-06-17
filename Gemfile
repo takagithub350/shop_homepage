@@ -66,3 +66,4 @@ end
   gem 'twitter'
   gem 'omniauth'
   gem 'omniauth-twitter'
+  gem 'unicorn', '5.4.1'
