@@ -17,6 +17,8 @@ default: &default
   password:
   socket: /tmp/mysql.sock
 
+
+
 development:
   <<: *default
   database: kazuya_development
@@ -47,8 +49,16 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+
+# production:
+#   <<: *default
+#   database: kazuya_production
+#   username: kazuya
+#   password: <%= ENV['KAZUYA_DATABASE_PASSWORD'] %>
+
 production:
   <<: *default
   database: kazuya_production
-  username: kazuya
-  password: <%= ENV['KAZUYA_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
