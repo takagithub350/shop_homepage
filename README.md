@@ -63,4 +63,4 @@ Twiiterのハッシュタグの埋め込み
 ## DB設計
 現状なし
 
-追加実装予定(commetやuserなど)
+追加実装予定(commentやuserなど)
