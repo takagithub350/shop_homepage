@@ -37,10 +37,17 @@ macOS Catalina 10.15.5
 ruby 2.5.1
 AWS
 
-## ■DEMO(gifで動画や写真を貼って、ビューのイメージを掴んでもらいます)
+## ■DEMO
 
-http://〇〇.com
-<!-- 　⇒できている範囲で貼り付けましょう。 -->
+http://54.92.91.206/
+
+<img width="1073" src="https://user-images.githubusercontent.com/60635421/85493968-cf314280-b612-11ea-8dcb-8ed07d0088ff.png">
+<img width="1089" alt="スクリーンショット 2020-06-24 12 03 17" src="https://user-images.githubusercontent.com/60635421/85493977-d3f5f680-b612-11ea-8170-d165a2295485.png">
+<img width="1068" alt="スクリーンショット 2020-06-24 12 03 04" src="https://user-images.githubusercontent.com/60635421/85493979-d5272380-b612-11ea-9c95-ca251fd2ba1b.png">
+<img width="1088" alt="スクリーンショット 2020-06-24 12 02 53" src="https://user-images.githubusercontent.com/60635421/85493986-d7897d80-b612-11ea-80b5-0ed0166b72f9.png">
+
+
+<!-- ⇒できている範囲で貼り付けましょう。 -->
 ## 実装予定の内容
 
 Twiiterのハッシュタグの埋め込み
