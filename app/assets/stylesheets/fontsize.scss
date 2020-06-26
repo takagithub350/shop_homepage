@@ -1,0 +1,81 @@
+/* 基本サイズ 16px */
+body {
+  font-size: 16px;
+  }
+  
+  * html body { /* for IE6 */
+  font-size: 100%;
+  }
+  
+  *:first-child+html body { /* for IE7 */
+  font-size: 100%;
+  }
+  
+  .size10px {
+  font-size: 63%; /* 10px */
+  }
+  
+  .size11px {
+  font-size: 69% /* 11px */
+  }
+  
+  .size12px {
+  font-size: 75% /* 12px */
+  }
+  
+  .size13px {
+  font-size: 82% /* 13px */
+  }
+  
+  .size14px {
+  font-size: 88% /* 14px */
+  }
+  
+  .size15px {
+  font-size: 94% /* 15px */
+  }
+  
+  .size16px {
+  font-size: 100% /* 16px */
+  }
+  
+  .size17px {
+  font-size: 107% /* 17px */
+  }
+  
+  .size18px {
+  font-size: 113% /* 18px */
+  }
+  
+  .size19px {
+  font-size: 119% /* 19px */
+  }
+  
+  .size20px {
+  font-size: 125% /* 20px */
+  }
+  
+  .size21px {
+  font-size: 132% /* 21px */
+  }
+  
+  .size22px {
+  font-size: 138% /* 22px */
+  }
+  
+  .size23px {
+  font-size: 144% /* 23px */
+  }
+  
+  .size24px {
+  font-size: 150% /* 24px */
+  }
+  
+  .size25px {
+  font-size: 157% /* 25px */
+  }
+  
+  .size26px {
+  font-size: 163% /* 26px */
+  }
+  
