@@ -19,42 +19,40 @@
         
       }
   }
-
-  .top_contents{
-    text-align: center;
-  }
   
-  .main_contents{
-    h4 {
-      text-align: center;
-      position: relative;
-      padding: 0.25em 1em;
-      border: solid 2px #FFB6C1;
-      border-radius: 3px 0 3px 0;
-      text-decoration: none;
-      
-
-      h4:before, h4:after {
-        content: '';
-        position: absolute;
-        width:10px;
-        height: 10px;
-        border: solid 2px #FFB6C1;
-        border-radius: 50%;
-
-        h4:after {
-          top:-12px;
-          left:-12px;
-        }
-
-        h4:before {
-          bottom:-12px;
-          right:-12px;
-        }
-      }
-    }
+  .contents_bar {
+    text-align: center;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #FFB6C1;
+    border-radius: 3px 0 3px 0;
+    text-decoration: none;
+    margin: 20px 0px;
+    font-weight: bold;
     
 
+    .contents_bar:before, .contents_bar:after {
+      content: '';
+      position: absolute;
+      width:10px;
+      height: 10px;
+      border: solid 2px #FFB6C1;
+      border-radius: 50%;
+
+      .contents_bar:after {
+        top:-12px;
+        left:-12px;
+      }
+
+      .contents_bar:before {
+        bottom:-12px;
+        right:-12px;
+      }
+    }
+  }
+
+
+  .menu_gallery{    
     .menu{
       display: flex;
       #button{
@@ -64,54 +62,82 @@
         text-decoration: none;
       }
     }
+  }
+
+
+  .infomation{
+    margin-bottom: 30px;
+    .comment_twitter{
+      color: #000080;
+    }
+    .recruit{
+      width: 50%;
+      color: #000080;
+      border: solid 2px #FFB6C1;
+      margin: auto;
+      line-height: 40px;
+
+      .recruit_title{
+        text-align: center;
+        color: red;
+      }
+
+    }
+  }
     
+  .footer{
+    
+    .comment_last{
+      border: solid 2px #FFB6C1;
+      color: #000080;
+      text-align: center;
+    }
     
     .kutikomi{
-      color: #000080;
-      height: 500px;
+      height: 700px;
+      
     }
     
     #map{
       width: 100%;
-      padding-top: 10px;
       
+    }
+    .bussiness_hours{
+      width: 60%;
+      border: solid 2px #FFB6C1;
+      margin: auto;
+
+      .hours_title{
+        color: #000080;
+        text-align: center;
+        
+      }
+      .hours_list{
+        color: #000080;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        
+        
+        .holiday{
+          width: 30%;
+          
+        }
+        
+        .list{
+          list-style: none;
+          text-decoration: none;
+        }    
+      }
     }
   }
   
   a{
      text-decoration: none;
-    }
+  }
   
   a:hover {
     text-decoration:underline;
-    }
-
-
-  .footer{
-    width: 60%;
-    margin: auto;
-    border: solid 1px;
-
-    .footer_title{
-      text-align: center;
-
-    }
-    
-    .bussiness_hours{
-      display: flex;
-      justify-content: space-around;
-      
-      .holiday{
-        width: 30%;
-      
-      }
-
-      .list{
-        list-style: none;
-        text-decoration: none;
-      }    
-    }
   }
-
-  
 }
