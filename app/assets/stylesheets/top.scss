@@ -18,6 +18,11 @@
         color: #DC143C;
         
       }
+
+    .shop_name_ruby{
+      color: #000000;
+      margin-bottom: -15px;
+    }
   }
   
   .contents_bar {
@@ -76,8 +81,9 @@
       border: solid 2px #FFB6C1;
       margin: auto;
       line-height: 40px;
-
+      font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
       .recruit_title{
+        font-size: 150%;
         text-align: center;
         color: red;
       }
