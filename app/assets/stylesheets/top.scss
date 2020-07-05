@@ -117,37 +117,34 @@
       
     }
     .bussiness_hours{
-      width: 60%;
+      width: 70%;
+      color: #000080;
       border: solid 2px #FFB6C1;
       margin: auto;
+      font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 
-      &_box{
-        // margin: auto;
-
-        .hours_title{
-          color: #000080;
-          text-align: center;
-          padding-top: 20px;
+      .hours_title{
+        color: #000080;
+        text-align: center;
+        padding-top: 20px;
+        
+      }
+      .hours_list{
+        color: #000080;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        
+        
+        .holiday{
+          margin-right: 40px;
           
         }
-        .hours_list{
-          color: #000080;
-          // width: 60%;
-          display: flex;
-          justify-content: space-around;
-          margin: auto;
-          
-          
-          // .holiday{
-          //   width: 30%;
-            
-          // }
-          
-          .list{
-            list-style: none;
-            text-decoration: none;
-          }    
-        }
+        
+        .list{
+          list-style: none;
+          text-decoration: none;
+        }    
       }
     }
   }
