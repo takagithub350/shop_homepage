@@ -121,28 +121,33 @@
       border: solid 2px #FFB6C1;
       margin: auto;
 
-      .hours_title{
-        color: #000080;
-        text-align: center;
-        
-      }
-      .hours_list{
-        color: #000080;
-        width: 60%;
-        display: flex;
-        justify-content: space-around;
-        margin: auto;
-        
-        
-        .holiday{
-          width: 30%;
+      &_box{
+        // margin: auto;
+
+        .hours_title{
+          color: #000080;
+          text-align: center;
+          padding-top: 20px;
           
         }
-        
-        .list{
-          list-style: none;
-          text-decoration: none;
-        }    
+        .hours_list{
+          color: #000080;
+          // width: 60%;
+          display: flex;
+          justify-content: space-around;
+          margin: auto;
+          
+          
+          // .holiday{
+          //   width: 30%;
+            
+          // }
+          
+          .list{
+            list-style: none;
+            text-decoration: none;
+          }    
+        }
       }
     }
   }
